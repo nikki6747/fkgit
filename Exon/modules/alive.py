@@ -63,14 +63,14 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.1)
     umm = await m.reply_sticker(
-        "CAACAgUAAx0CZIiVngABBHAzYwdi9OIVTQ7DYELAqMl46fgnK4wAAjsIAAKagolX-O0V64tvzK8pBA"
+        "CAACAgQAAxkBAAEMsWxjYfptM151thWoOc6Azeqjh4OlNgACJAoAAhd3KVEKXSTBEifDjCoE"
     )
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪsʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
+» **ᴍʏ ᴏᴡɴᴇʀ :** {https://t.me/{OWNER_USERNAME}
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
